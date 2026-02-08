@@ -26,23 +26,34 @@ for caminho_arquivo in arquivos_csv:
     df['Data da Coleta'] = pd.to_datetime(df['Data da Coleta'], dayfirst=True)
     if df['Valor de Compra'].isna().all():
         df = df.drop(columns=['Valor de Compra'])
+    
         
     # Adicionando o dataframe na lista
     lista_dataframes.append(df)
-
+    
+    
 
 
 if lista_dataframes:
+    
     
     # Junta tudo em um único objeto
     df_anual = pd.concat(lista_dataframes, ignore_index=True)
     print(f"✅ Sucesso! Total de registros no ano: {len(df_anual)}")
     
     nome_saida = caminho_csv / "Precos_ANP_2024_Completo.csv"
+    
     df_anual.to_csv(nome_saida, index=False, sep=';', encoding='utf-8-sig')
+    # Remove espaços e troca por underscore, coloca tudo em minúsculo
+    
+    
+    
+    
     print(f"💾 Arquivo consolidado salvo em: {nome_saida}")
 else:
     print("❌ Nenhum arquivo CSV encontrado para processar.")
+    
+    
     
     
 
