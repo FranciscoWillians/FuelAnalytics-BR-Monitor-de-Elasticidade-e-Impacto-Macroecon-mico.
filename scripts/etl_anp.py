@@ -206,7 +206,7 @@ def main():
     print("\n📥 ETAPA 1: DOWNLOAD DOS DADOS")
     
     # CORREÇÃO: Usar a função de verificação que verifica se já existe
-    arquivo_zip = verificar_e_baixar(ano =2024, semestre = 1)
+    arquivo_zip = verificar_e_baixar(ano =2024, semestre = 2)
     
     if not arquivo_zip:
         print("❌ Falha no download. Encerrando.")
