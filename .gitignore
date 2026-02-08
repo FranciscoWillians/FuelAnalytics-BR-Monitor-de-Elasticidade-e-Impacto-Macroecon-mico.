@@ -1,0 +1,126 @@
+# =========================
+# Arquivos de cache e compilados
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Ambientes virtuais
+# =========================
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =========================
+# Configurações e credenciais
+# =========================
+*.env
+*.ini
+*.cfg
+*.toml
+*.secret
+*.key
+*.pem
+
+# =========================
+# Logs e relatórios
+# =========================
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.db
+
+# =========================
+# Ferramentas de build/distribuição
+# =========================
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# =========================
+# Testes e cobertura
+# =========================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# =========================
+# IDEs e editores
+# =========================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# =========================
+# PyInstaller
+# =========================
+*.manifest
+*.spec
+
+# =========================
+# MyPy e tipagem
+# =========================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# =========================
+# Pyre type checker
+# =========================
+.pyre/
+
+# =========================
+# Pytype
+# =========================
+.pytype/
+
+# =========================
+# Cython debug
+# =========================
+cython_debug/
+arquivo_zip_primeiro_semestre/
+arquivos_csv/ 
+# Arquivos grandes de dados
+*.csv
+arquivos_csv/
+arquivo_zip_primeiro_semestre/
+*.zip
+*.7z"
+*.rar
